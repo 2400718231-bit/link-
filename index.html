@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>For My Favourite Person</h1>
+    <div class="container">
+        <img src="assets/logo.jpg" alt="">
+    </div>
+    <div class="card">
+        <h2>Hey Pookie!</h2>
+        <p>Just like stitch found his Ohana,
+            i just found my home in you.
+            thank you for your love, your smile,
+            and every little moment we share.
+             you are my sunshine on cloudy days,
+             my rock when i need support, and my safe place in every way.
+             i am so grateful to have you in my life, and i look forward to many more adventures together.
+             i love you more than words can express, and i can't wait to see what the future holds for us.
+        </p>
+        <button onclick="showLove()">
+            click me
+        </button>
+        <p id="loveMessage"></p>
+    </div>
+    <script>
+        function showLove() {
+            document.getElementById('loveMessage').innerText = "I love you more than words can express!";
+        }
+    </script>
+</body>
+</html>
